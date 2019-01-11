@@ -1,0 +1,74 @@
+/* Navigation of Page */
+h1 {
+    margin: 10px 0 0 0;
+}
+.nav-bar {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background: #d7cec7;
+    background: linear-gradient(to bottom, #d7cec7 0%,#696969 100%);
+}
+.nav-bar ul {
+    padding: 0;
+    margin-top: 40px;
+    list-style: none;
+}
+.nav-bar li {
+    display: inline;
+    font-size: 26px;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #76323f;
+}
+.nav-bar a:hover {
+    background-color: #d7cec7;
+    padding-bottom: 1px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background-color: #d7cec7;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content i {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    color: #d7cec7;
+    font-size: 32px;
+    padding: 0 28px 0 8px;
+}
+/*//////////////////////////////////////////////*/
+
+/* Hero on Page*/
+.hero {
+    position: relative;
+}
+.hero-img {
+    max-height: 550px;
+    overflow: hidden;
+    border-bottom: 5px solid #76323f;
+}
+.hero-inner {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    transform: translateY(-40%);
+    color:#ffffff;
+    text-align: center;
+}
+/* /////////////////////////////////////////////*/
